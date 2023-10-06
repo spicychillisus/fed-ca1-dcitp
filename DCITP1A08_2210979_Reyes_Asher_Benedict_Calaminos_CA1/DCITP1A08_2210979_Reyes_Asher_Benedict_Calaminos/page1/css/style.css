@@ -1,0 +1,93 @@
+
+/* THIS CSS FILE IS MAINLY USED FOR NAVIGATION BAR AND INDEX WEBPAGE */
+
+@font-face {
+    font-family: "SF_PRO";
+    src: url(../fonts/sf_pro.OTF);
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../fonts/opensans.ttf);
+}
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url(../fonts/nunitobold.ttf);
+}
+
+@font-face {
+    font-family: "Source_Sans_Pro";
+    src: url(../fonts/sourcesanspro.ttf);
+}
+
+/* body background format */
+
+body {
+    margin: auto;
+	max-width: 1080px;
+	min-width: 768px;
+
+
+}
+
+/* ---------------------------------------------- */
+
+/* navigation bar */
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 1.8px;
+    background-color: #b5b5b5;
+  }
+
+ul {
+    list-style-type: none;
+    font-family: Open_Sans;
+    list-style-type: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: rgb(169, 163, 163);
+    text-decoration: none;
+    font-family: Open_Sans;
+    background-color: transparent;
+    font-size: large;
+    padding: 12px;
+
+}
+
+
+li a:hover {
+    background-color: rgb(74, 122, 2);
+    color: whitesmoke;
+    transition-duration: 0.1s;
+}
+
+/* ---------------------------------------------- */
+
+/* footer style */
+
+#footerdesign {
+    background-color: grey;
+    text-align: center;
+    font-family: Open_Sans;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+
+/* THIS CSS FILE IS FOR THE aboutme.html WEBPAGE */
+
+@font-face {
+    font-family: "SF_PRO";
+    src: url(../fonts/sf_pro.OTF);
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../fonts/opensans.ttf);
+}
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url(../fonts/nunitobold.ttf);
+}
+
+@font-face {
+    font-family: "Source_Sans_Pro";
+    src: url(../fonts/sourcesanspro.ttf);
+}
+
+
+/* default format */
+
+p {
+	font-family: "Open_Sans", Helvetica, serif;
+}
+
+
+/* background design */
+
+#custom1 {
+	background-image: linear-gradient(#026307, #017f76, #573157);
+	
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* box design */
+
+main {
+	background-color: rgb(245, 228, 207);
+	border-radius: 20px;
+	padding: 30px;
+	margin: 13px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* box to contain the picture of myself */
+
+.header {
+	background-color: rgb(245, 228, 207);
+	padding: 40px;
+	transform: translateY(-30px);
+}
+
+.header > h2 {
+	text-align: center;
+	transform: translateY(4%);
+	font-family: SF_PRO;
+	font-size: 30px;
+}
+
+.header > p {
+	line-break: normal;
+	text-align: center;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* picture of myself */
+
+#photome {
+	width: 70%;
+	border-radius: 15px;
+	display: block;
+	margin: 0 auto;
+	transform: translateY(4%);
+}
+
+/* ------------------------------------- */
+
+.about_me {
+	padding: 40px;
+}
+
+.about_me > h2 {
+	font-size: 40px;
+	font-family: SF_PRO;
+	text-align: center;
+}
+
+.about_me > p {
+	font-family: "Open_Sans", Helvetica, sans-serif;
+}
+
+/* ------------------------------------- */
+
+/* interests */
+
+.interests {
+	padding: 10%;
+}
+
+.interests > h2 {
+	font-family: SF_PRO;
+    text-align: center;
+}
+
+#photograph1 {
+	width: 100%;
+	border-radius: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+/* photography gallery */
+
+#image {
+	width: 50%;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#galleryheading {
+	font-family: SF_PRO;
+	text-align: center;
+}
+
+#caption {
+	font-family: "Open_Sans", Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: left;
+}
+
+#iconbar {
+	background-color: transparent;
+}
+
+
+
+#iconflickr {
+	width: 20%;
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+/* icon from https://www.flaticon.com/free-icons/flickr" title="flickr icons" */
+
+/* ----------------------------------------------------- */
+
+/* sec 4 picture */
+
+#cbss {
+	width: 50%;
+	border-radius: 10px;
+}
+
+#cbss:hover {
+	width: 80%;
+}
+
+/* ----------------------------------------------------- */
+
+/* personality */
+
+.personality {
+	padding: 50px;
+}
+
+.personality > h1 {
+	font-family: SF_PRO;
+	font-size: 40px;
+	text-align: center;
+}
+
+.personality > p {
+	font-family: "Open_Sans";
+	text-align: center;
+}
+
+/* ----------------------------------------------------- */
+
+/* values */
+
+.values {
+	padding: 50px;
+}
+
+.values > h1 {
+	text-align: center;
+	font-family: "SF_PRO", Arial, sans-serif;
+}
+
+.values > p {
+	text-align: center;
+}
+
+/* photo from https://www.sp.edu.sg/sp/about-sp */
+
+#spphoto {
+	width: 42%;
+	display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+
+
+
+
+
